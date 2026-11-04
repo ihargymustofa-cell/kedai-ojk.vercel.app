@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Laporan proyek Design Thinking perancangan aplikasi pemesanan Coffee Shop OJK." />
+  <title>Design Thinking — OJK Coffee Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#beranda"><span class="brand-mark">O.</span><span>OJK <small>COFFEE SHOP</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi">☰</button>
+    <nav id="navLinks">
+      <a href="#beranda">Beranda</a><a href="#empathize">Empathize</a><a href="#define">Define</a><a href="#ideate">Ideate</a><a href="#prototype">Prototype</a><a href="#test">Test</a>
+    </nav>
+    <a class="top-cta" href="#test">Lihat hasil uji <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> LAPORAN PROYEK DESIGN THINKING</div>
+        <h1>Pengalaman ngopi<br>yang lebih <em>mudah.</em></h1>
+        <p>Perancangan aplikasi pemesanan Coffee Shop OJK untuk membantu pelanggan memilih menu, mengatur pesanan, dan melakukan pembayaran dengan lebih praktis.</p>
+        <div class="hero-actions"><a class="btn primary" href="#empathize">Jelajahi penelitian <span>↓</span></a><a class="text-link" href="#prototype">Lihat prototype <span>↗</span></a></div>
+        <div class="hero-note"><span class="note-icon">✳</span><span>Berangkat dari kebutuhan pelanggan,<br>dirancang untuk pengalaman yang lebih baik.</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="coffee-orbit orbit-one"></div><div class="coffee-orbit orbit-two"></div>
+        <div class="coffee-card"><div class="cup-top"><div class="coffee-liquid"></div></div><div class="cup-body"></div><div class="cup-shadow"></div></div>
+        <div class="floating-tag tag-top">ORDER lebih praktis</div><div class="floating-tag tag-bottom"><b>OJK.</b><span>coffee & good moments</span></div>
+        <div class="hero-stamp">BREW<br>BETTER<br><b>DAILY</b></div>
+      </div>
+      <div class="hero-bottom"><span>01 / 05 — DESIGN THINKING PROCESS</span><span>SCROLL UNTUK MELIHAT PROSES ↓</span></div>
+    </section>
+
+    <section class="intro-strip"><div><span class="strip-label">FOKUS PENELITIAN</span><strong>Memahami proses pemesanan dari sudut pandang pelanggan dan barista.</strong></div><div class="strip-stats"><div><b>05</b><span>Tahapan</span></div><div><b>01</b><span>Solusi digital</span></div><div><b>∞</b><span>Peluang iterasi</span></div></div></section>
+
+    <section class="section" id="empathize">
+      <div class="section-head"><div><div class="eyebrow">01 — UNDERSTAND THE USER</div><h2>Empathize<span>.</span></h2></div><p>Memahami pengalaman, kebiasaan, dan kendala pelanggan saat memesan minuman di coffee shop.</p></div>
+      <div class="two-col">
+        <div class="story-card dark-card"><span class="card-kicker">NARASI TEMUAN OBSERVASI</span><h3>Hal sederhana yang bisa membuat pengalaman memesan terasa rumit.</h3><p>Berdasarkan skenario observasi pada proses pelayanan coffee shop, pelanggan umumnya datang untuk menikmati minuman dengan cepat dan nyaman. Pada jam ramai, pelanggan dapat mengalami antrean ketika melihat menu, menyampaikan pesanan, dan menunggu konfirmasi pembayaran. Pelanggan yang belum mengenal pilihan menu juga membutuhkan waktu untuk bertanya mengenai ukuran, tingkat gula, jenis susu, atau tambahan espresso.</p><p>Dari sisi barista, pesanan yang masuk secara bersamaan perlu dicatat dan diperiksa kembali agar tidak tertukar. Barista juga harus memastikan detail kustomisasi minuman serta memperbarui status pesanan supaya pelanggan mengetahui apakah pesanan sedang dibuat atau sudah dapat diambil.</p><div class="quote">“Pelanggan ingin memesan dengan mudah dan tahu kapan minumannya siap.”</div><small class="muted">Catatan: narasi ini merupakan contoh temuan awal. Sesuaikan dengan observasi langsung di objek penelitian.</small></div>
+        <div class="needs-panel"><div class="needs-title">Kebutuhan yang teridentifikasi</div><div class="need"><span>01</span><div><b>Informasi menu yang jelas</b><p>Foto, harga, deskripsi, dan pilihan kustomisasi mudah dipahami.</p></div></div><div class="need"><span>02</span><div><b>Proses pemesanan praktis</b><p>Pelanggan dapat memilih minuman tanpa harus mengulang pesanan.</p></div></div><div class="need"><span>03</span><div><b>Status pesanan transparan</b><p>Pelanggan mengetahui pesanan diterima, dibuat, atau siap diambil.</p></div></div><div class="need"><span>04</span><div><b>Pembayaran yang sederhana</b><p>Rincian total dan metode pembayaran ditampilkan dengan jelas.</p></div></div></div>
+      </div>
+    </section>
+
+    <section class="section beige-section" id="define">
+      <div class="section-head"><div><div class="eyebrow">02 — DEFINE THE PROBLEM</div><h2>Define<span>.</span></h2></div><p>Menyaring hasil pengamatan untuk menemukan masalah utama yang perlu diselesaikan.</p></div>
+      <div class="problem-statement"><span class="card-kicker">POIN PERMASALAHAN UTAMA</span><h3>Pelanggan membutuhkan cara pemesanan yang informatif, ringkas, dan dapat dipantau.</h3><p>Proses pemesanan yang masih bergantung pada komunikasi langsung berpotensi menimbulkan antrean, kesalahan pencatatan detail pesanan, ketidakjelasan status, serta waktu tunggu yang terasa lebih lama.</p></div>
+      <div class="problem-grid"><article><span>01</span><h4>Menu kurang terpusat</h4><p>Informasi pilihan minuman dan kustomisasi perlu ditanyakan satu per satu.</p></article><article><span>02</span><h4>Risiko salah pesanan</h4><p>Detail ukuran, gula, susu, dan tambahan perlu dicatat secara konsisten.</p></article><article><span>03</span><h4>Status tidak terlihat</h4><p>Pelanggan belum tentu mengetahui tahapan pengerjaan pesanannya.</p></article><article><span>04</span><h4>Alur pembayaran</h4><p>Rincian transaksi dan konfirmasi pembayaran perlu dibuat lebih jelas.</p></article></div>
+      <div class="how-might"><span>HOW MIGHT WE?</span><b>Bagaimana kita dapat membantu pelanggan memesan kopi dengan mudah, meminimalkan kesalahan, dan mengetahui status pesanannya tanpa harus terus bertanya kepada barista?</b></div>
+    </section>
+
+    <section class="section" id="ideate">
+      <div class="section-head"><div><div class="eyebrow">03 — EXPLORE SOLUTIONS</div><h2>Ideate<span>.</span></h2></div><p>Mengembangkan alternatif solusi yang menjawab kebutuhan pelanggan dan mendukung pekerjaan barista.</p></div>
+      <div class="solution-layout"><div class="solution-lead"><span class="card-kicker">SOLUSI YANG DIUSULKAN</span><h3>Aplikasi pemesanan digital OJK Coffee Shop.</h3><p>Aplikasi memungkinkan pelanggan melihat menu, mengatur kustomisasi, memasukkan produk ke keranjang, memilih metode pengambilan, dan melakukan pembayaran melalui satu alur.</p><a href="#prototype" class="btn primary">Lihat rancangan <span>↓</span></a></div><div class="feature-list"><div class="feature"><div class="feature-icon">▦</div><div><b>Katalog menu digital</b><p>Foto produk, deskripsi, dan harga tersedia dalam satu halaman.</p></div></div><div class="feature"><div class="feature-icon">☷</div><div><b>Kustomisasi minuman</b><p>Pilihan ukuran, jenis biji, susu, gula, suhu, dan jumlah pesanan.</p></div></div><div class="feature"><div class="feature-icon">▣</div><div><b>Keranjang dan pembayaran</b><p>Ringkasan pesanan, total biaya, serta pilihan metode pembayaran.</p></div></div><div class="feature"><div class="feature-icon">◷</div><div><b>Pelacakan status pesanan</b><p>Informasi pesanan diterima, sedang dibuat, dan siap diambil.</p></div></div><div class="feature"><div class="feature-icon">▤</div><div><b>Dashboard barista</b><p>Barista dapat melihat antrean dan memperbarui status pesanan.</p></div></div></div></div>
+    </section>
+
+    <section class="section prototype-section" id="prototype">
+      <div class="section-head"><div><div class="eyebrow">04 — MAKE IT TANGIBLE</div><h2>Prototype<span>.</span></h2></div><p>Representasi visual untuk memperlihatkan bagaimana solusi bekerja sebelum dikembangkan menjadi aplikasi sesungguhnya.</p></div>
+      <div class="prototype-explain"><div><h3>Mengapa menggunakan teknik prototype digital?</h3><p>Prototype digital dipilih karena alur aplikasi dapat divisualisasikan dan disimulasikan sebelum proses pemrograman penuh dilakukan. Dengan rancangan ini, peneliti dapat meminta pengguna mencoba susunan menu, proses kustomisasi, keranjang, pembayaran, serta tampilan dashboard barista.</p><p>Teknik ini membantu menemukan bagian yang membingungkan sejak awal, mengurangi risiko perubahan besar saat pengembangan, dan memudahkan komunikasi antara perancang, pengguna, serta pengembang. Prototype juga dapat diperbaiki secara bertahap berdasarkan masukan pengguna.</p><div class="method-tags"><span>Low / high fidelity</span><span>UI flow</span><span>Usability review</span><span>Iterasi desain</span></div></div><div class="prototype-note"><span class="note-icon">✳</span><b>Alur yang dirancang</b><ol><li>Pelanggan membuka beranda dan memilih menu.</li><li>Pelanggan mengatur detail minuman.</li><li>Produk masuk ke keranjang.</li><li>Pelanggan memilih pengambilan dan pembayaran.</li><li>Barista menerima dan memperbarui status pesanan.</li></ol></div></div>
+      <div class="gallery-heading"><div><span class="card-kicker">VISUAL RANCANGAN</span><h3>Rancangan antarmuka aplikasi</h3></div><span class="muted">Berdasarkan gambar prototype yang diberikan</span></div>
+      <figure class="prototype-image"><img src="assets/tampilan-aplikasi.png" alt="Rancangan layar beranda, kustomisasi kopi, keranjang, dan pembayaran aplikasi OJK"><figcaption>Gambar 1. Rancangan antarmuka pelanggan: beranda, kustomisasi kopi, keranjang, dan pembayaran.</figcaption></figure>
+      <figure class="prototype-image dashboard-image"><img src="assets/dashboard-barista.png" alt="Rancangan dashboard pemilik dan layar pesanan barista"><figcaption>Gambar 2. Rancangan layar status pesanan, dashboard barista, dan dashboard pemilik coffee shop.</figcaption></figure>
+    </section>
+
+    <section class="section beige-section" id="test">
+      <div class="section-head"><div><div class="eyebrow">05 — VALIDATE & IMPROVE</div><h2>Test<span>.</span></h2></div><p>Mengukur tanggapan pengguna terhadap rancangan dan menemukan bagian yang perlu diperbaiki.</p></div>
+      <div class="data-alert"><b>Perhatian: data simulasi</b><span>Angka berikut hanya contoh pengolahan statistik dengan 20 responden hipotetis. Ganti dengan data kuesioner asli sebelum dikumpulkan sebagai laporan penelitian.</span></div>
+      <div class="test-intro"><div><span class="card-kicker">CONTOH INSTRUMEN KUESIONER</span><h3>Evaluasi pengalaman menggunakan prototype.</h3><p>Responden diminta memberi penilaian skala Likert 1–5 (1 = sangat tidak setuju, 5 = sangat setuju) terhadap pernyataan berikut.</p></div><div class="respondent-count"><b>20</b><span>responden<br>simulasi</span></div></div>
+      <div class="survey-table-wrap"><table><thead><tr><th>Aspek yang dinilai</th><th>Pernyataan kuesioner</th><th>Skor rata-rata*</th><th>Indeks*</th></tr></thead><tbody>
+        <tr><td>Kemudahan</td><td>Saya mudah memahami navigasi dan alur aplikasi.</td><td>4,3</td><td><span class="mini-bar"><i style="width:86%"></i></span>86%</td></tr>
+        <tr><td>Informasi menu</td><td>Informasi menu, harga, dan kustomisasi mudah dipahami.</td><td>4,5</td><td><span class="mini-bar"><i style="width:90%"></i></span>90%</td></tr>
+        <tr><td>Keranjang</td><td>Ringkasan pesanan membantu saya memeriksa pesanan.</td><td>4,2</td><td><span class="mini-bar"><i style="width:84%"></i></span>84%</td></tr>
+        <tr><td>Pembayaran</td><td>Informasi pembayaran mudah ditemukan dan dipahami.</td><td>4,1</td><td><span class="mini-bar"><i style="width:82%"></i></span>82%</td></tr>
+        <tr><td>Status pesanan</td><td>Status pesanan membantu saya mengetahui progres pesanan.</td><td>4,4</td><td><span class="mini-bar"><i style="width:88%"></i></span>88%</td></tr>
+      </tbody></table><small class="muted">*Nilai merupakan contoh simulasi, bukan hasil pengumpulan data aktual.</small></div>
+      <div class="chart-grid"><div class="chart-card"><div class="chart-title"><div><span class="card-kicker">RINGKASAN PENILAIAN</span><h3>Indeks per aspek</h3></div><span class="chart-unit">0–100%</span></div><div class="bar-chart" id="barChart"><div class="bar-row"><label>Kemudahan</label><div class="bar-track"><i style="width:86%"></i></div><b>86%</b></div><div class="bar-row"><label>Informasi menu</label><div class="bar-track"><i style="width:90%"></i></div><b>90%</b></div><div class="bar-row"><label>Keranjang</label><div class="bar-track"><i style="width:84%"></i></div><b>84%</b></div><div class="bar-row"><label>Pembayaran</label><div class="bar-track"><i style="width:82%"></i></div><b>82%</b></div><div class="bar-row"><label>Status pesanan</label><div class="bar-track"><i style="width:88%"></i></div><b>88%</b></div></div></div>
+        <div class="chart-card score-card"><span class="card-kicker">RATA-RATA KESELURUHAN</span><div class="score-number">4,30<span>/5</span></div><div class="score-stars">★★★★★</div><p>Setara dengan indeks simulasi <b>86%</b>.</p><div class="score-foot">Interpretasi contoh: tanggapan positif</div></div></div>
+      <div class="analysis-box"><span class="card-kicker">PEMBAHASAN HASIL SIMULASI</span><h3>Informasi menu mendapat nilai tertinggi.</h3><p>Dalam contoh data ini, aspek informasi menu memperoleh indeks 90%, yang menunjukkan bahwa katalog dengan foto, harga, dan pilihan kustomisasi berpotensi membantu pelanggan memahami produk. Status pesanan berada pada 88%, sedangkan kemudahan navigasi 86%. Aspek keranjang memperoleh 84% dan pembayaran 82%, sehingga keduanya menjadi prioritas evaluasi lanjutan.</p><p>Perbaikan yang dapat dilakukan meliputi memperjelas ringkasan biaya, membuat tombol pembayaran lebih menonjol, dan memastikan pengguna memperoleh konfirmasi setelah pesanan dikirim. Hasil aktual harus dihitung kembali setelah kuesioner dibagikan kepada responden sebenarnya.</p></div>
+      <div class="formula-box"><b>Rumus pengolahan data</b><code>Indeks (%) = (Total skor aktual ÷ Skor maksimum) × 100</code><code>Rata-rata = Total seluruh skor ÷ Jumlah jawaban</code><p>Contoh: jika 20 responden memberi nilai pada satu pernyataan, skor maksimum = 20 × 5 = 100. Jika total skor aktual 86, indeks = 86 ÷ 100 × 100% = 86%.</p></div>
+    </section>
+
+    <section class="closing"><div class="eyebrow">KESIMPULAN</div><h2>Desain yang baik dimulai<br>dari <em>memahami manusia.</em></h2><p>Melalui lima tahapan Design Thinking, rancangan aplikasi OJK Coffee Shop diarahkan untuk membuat proses pemesanan lebih jelas bagi pelanggan dan lebih terorganisasi bagi barista. Tahap berikutnya adalah menguji prototype kepada pengguna nyata, menganalisis hasilnya, lalu menyempurnakan desain.</p><a class="btn light" href="#beranda">Kembali ke atas ↑</a></section>
+  </main>
+  <footer><a class="brand" href="#beranda"><span class="brand-mark">O.</span><span>OJK <small>COFFEE SHOP</small></span></a><span>Design Thinking Project · OJK Coffee Shop</span><span>© <span id="year"></span></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
